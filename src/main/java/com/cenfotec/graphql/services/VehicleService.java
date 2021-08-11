@@ -30,4 +30,7 @@ public class VehicleService {
         return this.vehicleRepo.save(vehicle);
     }
 
+    public void save(Vehicle vehicleEntity) {
+        this.vehicleRepo.save(vehicleEntity);
+    }
 }
